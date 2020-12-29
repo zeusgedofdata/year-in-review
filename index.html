@@ -1,59 +1,102 @@
-<h1>Year In Review</h1>
-<p> For the last few years I've really wanted to track my "good" habits look at the data and see what I can learn from them. However, I would always burn out a few months into the process. This was the first year I was able to go a whole year tracking my habits. I used Daylio/Google fit to track my habits. Then imported the data into my own DB schema and plotted everything with ploty. </p>
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Year in Review</title>
+</head>
+<body>
+  <h1>Year In Review</h1>
+  <p> For the last few years I've really wanted to track all of my "good" habits and then look at the data and see what I can learn from them. However, I would always burn out a few months into the process. This was the first time I was able to go a whole year tracking my habits. I used Daylio/Google fit to track my habits. Then imported the data into my own DB schema and plotted everything with ploty. If anyone is interested in building better habits I found the book "Atomic Habits" to be very good. </p>
 
 
-<p>I tracked 6 habits that can be broken down into 3 categories.</p>
-<h3>Knowledge</h3>
-<ul>
-  <li>Reading</li>
-  <li>Programming</li>
-  <li>Math Note: Lots of overlap with reading since I was reading books with math and was never quite sure how to categorize that activty. So this is just me with a pencial and paper figuring stuff out. It does not include watching math videos or reading math books</li>
-  <li> Does not include: Audio Books Reading - Educational videos (mostly math or ML) </li>
-</ul>
+  <p>I tracked 6 habits that can be broken down into 3 categories.</p>
 
-<h3>Health</h3>
-<ul>
-  <li>Running</li>
-  <li>Yoga</li>
-  <li>Weights</li>
-  <li>Does not include: Walks (2-3 for the dog) I did track this but it blows up the chart since I walk the dog almost every day</li>
-</ul>
+  <h3>Meditation</h3>
+  <ul>
+    <li>Done through waking up app each sesssion was 10-20 min long</li>
+  </ul>
+  <h3>Knowledge</h3>
+  <ul>
+    <li>Reading</li>
+    <li>Programming</li>
+    <li>Math <p>Note: Lots of overlap with reading since I was reading books with math and was never quite sure how to categorize that activty.</p></li>
+    <li> Does not include:
+      <ul>Audio Books, or Podcasts, although it can be assumed I listen to one or the other everyday. </ul>
+      <ul>Educational videos or any online classes</ul>
+      <ul>Any programming for work purposes</ul>
+    </li>
+  </ul>
 
-<h3>Meditation</h3>
+  <h3>Health</h3>
+  <ul>
+    <li>Running</li>
+    <li>Yoga</li>
+    <li>Weights</li>
+    <li>Does not include: 
+      <ul>Walks (avg 2-3 a day) I did track this but it blows up the charts since I walk the dog almost every day</ul>
+      <ul>Weight: I did track this a little but then stopped. I'm probably a little heavier now then the start of the year because I stopped dieting. But there is always next year. </ul>
+    </li>
+  </ul>
 
-<p>First an overview of how much I did each activity this year. You can click on the sections to see a better breakdown of that category. IE: Click Exercise in the chart</p>
+  <h2> How much of each activity did I do?</h2>
+  <p>Over all I feel good about the balance between the 3 categories, although I definatly need to add some more weight training. Yoga would have been much higher if not for Covid and my studio going remote, but it gave me an opportunity to start running more often </p>
+  <p>Click on a section to zoom in</p>
 
-<p>The values are calcuated by how many days I did that activity</p>
+  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/AllActivitiesSunBurst" height="525" width="100%"></iframe>
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/AllActivitiesSunBurst" height="525" width="100%"></iframe>
+  <h2>On what days of the week was I most productive?</h2> 
+  <p>Didn't expect tuesday to be my best day, but I suppose it makes sense. Monday I'm coming off from the weekend and Tuesday I'm more motivated to actually do something</p>
+  <p>Click on the legend to filter activities in and out</p>
 
-<h2>On what days of the week was I most productive?</h2> 
-<p>Click on the legend to filter activities in and out</p>
-
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/AllActivitiesBar" height="525" width="100%"></iframe>
-
-
-<h2>The Next 3 graphs show which days I participated in each habit</h2>
-<p>Click on the legend to filter activities in and out</p>
-
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/StudyFrequency" height="525" width="100%"></iframe>
-
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/HealthFrequency" height="525" width="100%"></iframe>
-
-<p>At the end of June I got shin splints so I stopped running, starting feeling better and tried to run again at the start of july, but wasn't fully healed so I stayed stopped again</p>
-
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/MeditationFrequency" height="525" width="100%"></iframe>
+  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/AllActivitiesBar" height="525" width="100%"></iframe>
 
 
-<h2>Misc Stats</h2>
+  <h2>The Next 3 graphs show which days I participated in each habit</h2>
 
-<h3>Audio Books read</h3>
-<img src="./2020.png">
 
-<h3>Steps Taken</h3>
+  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/StudyFrequency" height="525" width="100%"></iframe>
 
-<h3>Miles Walked/Run</h3>
+  <p>Around the end of april I started studying datascience with a friend, which really helpped me stay motivated. We started with a programming project, and then moved on to reading a text book together in June. </p>
 
-<h2>Final Notes</h2>
+  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/HealthFrequency" height="525" width="100%"></iframe>
+
+  <p>At the end of June I got shin splints so I stopped running, starting feeling better and tried to run again at the start of july, but wasn't fully healed so I stayed stopped again</p>
+
+  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/MeditationFrequency" height="525" width="100%"></iframe>
+  <p>By far my most consistent habbit. It helps how quickly I can fit it into a day, just need to find 10 min to dedicate to the practice. </p>
+
+  <h2>All together</h2>
+
+  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/AnyActivity" height="525" width="100%"></iframe>
+
+  <p>This shows every day I logged anything at all</p>
+
+  <h2>Misc Stats</h2>
+
+  <h3>Steps Taken</h3>
+
+   <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://zeusgedofdata.github.io/year-in-review/MeditationFrequency" height="525" width="100%"></iframe>
+
+   <p>I had a lot of issues with my watch syncing with google fit so there may be some data errors here. </p>
+
+  <h3>Miles Walked/Run</h3>
+
+  <h3>Audio Books read</h3>
+  <img src="./2020.png">
+
+
+
+  <h2>Future</h2>
+  <p>This was a good start to finally becoming a productive individual, but it's just a start. I'm hoping next year I can do even better, such as sticking to a diet longer, and not wavering in my schedule as much as I did. There were a lot of gaps where I really struggled to keep my momentum going, and starting over is much harder then to simply keep going. Next year I'm going to starting using Habitica to track my habits, since it has an API I can use to more easily download and view my progress on a more regular basis. I've also made many adjustments in what I'm tracking so that it's a more accurate representation of what I'm actually doing. It's a fine line between capturing meaningful data, and going overboard and making the act of tracking too difficult and leading to burnout which has been part of my problem in the past.  </p>
+
+  <h2>Final Notes</h2>
+  <p>Overall a very productive year and I'm glad I went through this exercise. During the year it's hard to feel that your making any progress, be it fitness, education or your mindfulness practice. But when I was putting together this data I could really see how far I have come this year in many respects. I used to think that productivity was a function of either motivation, or discipline. And while bovth are certiantly nice to have they both have deeply flawed ways to be productive. Motivation can come in great burst and for a few days or weeks you can really push towards your goals. But motivation, like all emotions fades away. If that is all you are relying on you will burn out and find it difficult to get started again. Discipline is more durable then motivation, but it's one of those things where if you don't already have it, it's really hard to aquire. It's something that needs to be taught or given to you by some teacher or orginization like the military. Which finally leaves habits. No matter how diciplined or motivated you are, we all have habits, both good and bad. The trick is finding a way to make good habits easy and rewarding and bad habits hard and punishing. Again I recommend Atomic Habits, for more information on this topic.  </p>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
 
 
